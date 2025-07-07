@@ -5,9 +5,9 @@ import (
 	"os"
 	"time"
 
+	"github.com/Gabriel-Schiestl/qq-framework-log-golang/logger"
 	sqltrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/database/sql"
 
-	logger "github.com/Gabriel-Schiestl/qq-framework-log-golang"
 	"github.com/jackc/pgx/v5/stdlib"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"

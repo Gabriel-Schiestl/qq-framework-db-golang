@@ -3,6 +3,7 @@ module github.com/Gabriel-Schiestl/qq-framework-db-golang
 go 1.24.4
 
 require (
+	github.com/Gabriel-Schiestl/qq-framework-log-golang v0.0.0-20250707133309-34257a5f0fee
 	github.com/jackc/pgx/v5 v5.7.5
 	go.uber.org/fx v1.24.0
 	gopkg.in/DataDog/dd-trace-go.v1 v1.74.2
@@ -29,10 +30,8 @@ require (
 	github.com/DataDog/go-tuf v1.1.0-0.5.2 // indirect
 	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.26.0 // indirect
 	github.com/DataDog/sketches-go v1.4.7 // indirect
-	github.com/Gabriel-Schiestl/qq-framework-log-golang v0.0.0-20250707131247-1ad1de2a8a67 // indirect
 	github.com/Masterminds/semver/v3 v3.3.1 // indirect
 	github.com/Microsoft/go-winio v0.6.2 // indirect
-	github.com/caarlos0/env/v6 v6.10.1 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cihub/seelog v0.0.0-20170130134532-f561c5e57575 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
